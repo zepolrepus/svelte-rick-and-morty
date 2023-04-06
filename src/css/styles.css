@@ -1,0 +1,44 @@
+body {
+    background: #202020;
+    color: white;
+}
+
+.title {
+    font-size: 2.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns button {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: wheat;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.character {
+    background-color: #101010;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.character img {
+    border-radius: 5px 5px 0px 0px;
+}
